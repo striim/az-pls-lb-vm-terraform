@@ -54,3 +54,4 @@ netsh interface portproxy show all
 ```sh
 netsh interface portproxy add v4tov4 listenport=<database-port> listenaddress=0.0.0.0 connectport=<database-port> connectaddress=<database-ip-address>
 ```
+![Alt text](striim-integration.png)
