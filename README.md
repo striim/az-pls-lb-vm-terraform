@@ -18,7 +18,7 @@ terraform apply -var-file="pass_values.tfvars" -auto-approve
 
 ## To delete all resources:
 ```sh
-terraform destroy -var-file="pass_values.tfvars" -auto-approve
+terraform destroy -var-file="pass_values.tfvars"
 ```
 
 ## Some additional commands you might need:
