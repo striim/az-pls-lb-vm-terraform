@@ -5,6 +5,7 @@ This script will create a public IP address, a VM, an internal Load Balancer wit
 1. You have an Azure vNet and subnet created.
 2. You have an active VPN between your Azure vNet and the on-prem/AWS/GCP network.
 3. You can access your on-prem/AWS/GCP database from that Azure vNet.
+4. You have admin privilege to the Azure subscription.
 
 ## Disclaimer
 You agree that Striim is not responsible for creating, deleting, or managing any Azure resources and is not liable for any associated costs in your Azure account.
