@@ -47,6 +47,12 @@ iptables-save
 ```
 
 ### Windows commands:
+
+### To connect to the Windows VM:
+```sh
+Go to the Azure Virtual Machine Portal > Connect > Download the RDP client > Use the User and Password that passed during creation
+```
+
 #### To see port forwarding rules:
 ```sh
 netsh interface portproxy show all
